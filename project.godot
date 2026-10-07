@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor if possible.
+
+config_version=5
+
+[application]
+config/name="Math Trainer UA"
+run/main_scene="res://scenes/MainMenu.tscn"
+config/features=PackedStringArray("4.2")
+boot_splash/bg_color=Color(0.06, 0.10, 0.14, 1)
+
+[autoload]
+Global="*res://autoload/Global.gd"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+renderer/rendering_method="mobile"
+textures/canvas_textures/default_texture_filter=0
